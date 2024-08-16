@@ -3,7 +3,6 @@ import os
 from azure.ai.formrecognizer import DocumentAnalysisClient
 from azure.core.credentials import AzureKeyCredential
 
-# set `<your-endpoint>` and `<your-key>` variables with the values from the Azure portal
 endpoint = "https://doc-mslearn-docintel.cognitiveservices.azure.com/"
 key = "9d18f7d2991a452491ba3d7527d6f10d"
 
