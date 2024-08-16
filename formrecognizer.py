@@ -3,8 +3,8 @@ import os
 from azure.ai.formrecognizer import DocumentAnalysisClient
 from azure.core.credentials import AzureKeyCredential
 
-endpoint = "https://doc-mslearn-docintel.cognitiveservices.azure.com/"
-key = "9d18f7d2991a452491ba3d7527d6f10d"
+endpoint = "https://<project>.cognitiveservices.azure.com/"
+key = "<service key>"
 
 
 def format_polygon(polygon):
